@@ -1,0 +1,10 @@
+---
+buildName: "alex2"
+links:
+  Git: "https://github.com/AlexanderOwen-MeehanWork/alex2.git"
+  Job: "http://10.0.0.231:80/job/alex2"
+environments:
+  Testing: "default-testing"
+  Staging: "default-staging"
+  Production: "default-prod"
+useLocalFlow: true
