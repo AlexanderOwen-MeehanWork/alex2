@@ -1,4 +1,3 @@
-
 #!/usr/bin/groovy
 @Library('gogs/gogsadmin/fabric8-pipeline-library@offline')
 
