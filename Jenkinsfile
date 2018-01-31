@@ -30,7 +30,7 @@ def label = "buildpod.${env.JOB_NAME}.${env.BUILD_NUMBER}".replace('-', '_').rep
 mavenNode{
   def envStage = utils.environmentNamespace('staging')
 
-  git 'https://github.ibm.com/AlexanderOwen-MeehanWork/alex2.git'
+  git 'https://github.com/AlexanderOwen-MeehanWork/alex2.git'
 
   echo 'NOTE: running pipelines for the first time will take longer as build and base docker images are pulled onto the node'
   container(name: 'maven') {
